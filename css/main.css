@@ -1,12 +1,18 @@
 body {
     margin: 0;
-    background-image: url(/img/rain.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
+    /* position: relative; */
+}
+.body_img{
+    position: absolute;
+    z-index: -1;
+
 }
 
 .container {
-    margin: 40px 90px;
+    padding: 40px 90px;
 }
 
 .title {
