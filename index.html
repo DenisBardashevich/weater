@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Погода</title>
+        <link rel="stylesheet" href="./css/main.css" />
+        
+    </head>
+    <body>
+        <header class="container">
+            <div class="title">
+                <div class="title_teprec">
+                    <!-- <button class="title_far">°F</button>
+                    <button class="title_cels">°С</button> -->
+                </div>
+                <form class="form" id="form">
+                    <input
+                        id="inputCity"
+                        class="input"
+                        type="text"
+                        placeholder="Название города"
+                        onclick="clearSearch()"
+
+                        
+                        
+                    />
+                    <button class="btn">Показать</button>
+                </form>
+            </div>
+            <div class="weather">
+                <div class="map">
+                    <div id="map" class="map_content"></div>
+                    <div id="cordinats"></div>
+                    <div id="cordinats_name"></div>
+                </div>
+                <div class="weather_city">
+                    <p id="City-name">Город</p>
+                    <p>,&nbsp</p>
+                    <p id="Country-name">Страна</p>
+                </div>
+                <div class="weateers">
+                    <div id="weather_time" class="weather_time">
+                        <div id="dates" >День</div>&nbsp;
+                        <div id="month" >Месяц</div>&nbsp;
+                        <div id="times">Время</div>
+                    </div>
+                    <div class="weather_temp">
+                        <div id="temp">t</div><span>°</span>
+                    </div>
+                    <div class="weather_info">
+                        <div class="tuesday">
+                            Влажность
+                            <div class="humit">
+                                <div id="humidity" class="humidity">&nbsp;</div><span>%</span>
+                            </div>
+                            
+                        </div>
+                        <div class="wednesday">
+                            Скорость ветра
+                            <div class="speedd">
+                                <div id="speed" class="speed">&nbsp;</div><span>км/ч</span>
+
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <script src="https://api-maps.yandex.ru/2.1/?apikey=20b16ce6-d151-4f1e-bee2-8248c5b7d718&lang=ru_RU" type="text/javascript"></script>
+        <script src="./main.js"></script>
+
+    </body>
+</html>

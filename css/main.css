@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    background-image: url(/img/rain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin: 40px 90px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_teprec {
+    display: flex;
+    flex-direction: row;
+}
+
+.title_far {
+    background-color: rgb(101, 112, 117);
+    width: 44px;
+    height: 44px;
+    border-radius: 5px 0 0 5px;
+    border: 0;
+    font-size: 16px;
+}
+.title_cels:hover,
+.title_far:hover {
+    background-color: rgb(164, 201, 201);
+}
+
+.title_cels {
+    background-color: rgba(174, 181, 185, 1);
+    width: 44px;
+    height: 44px;
+    border-radius: 0 5px 5px 0;
+    border: 0;
+    font-size: 16px;
+}
+
+.form {
+    display: flex;
+}
+
+.input {
+    background-color: rgba(228, 227, 227, 0.8);
+    border-radius: 5px 0 0 5px;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    outline: 0;
+}
+.btn {
+    
+    
+    background: rgba(174, 181, 185, 0.8);
+    border-radius: 0 5px 5px 0;
+    color: white;
+    font-size: 13px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background: rgba(76, 82, 85, 0.4);
+}
+
+
+
+.weather_city {
+    display: flex;
+    margin-top: 57px;
+    font-size: 44px;
+    color: white;
+}
+.weather_time{
+    font-size: 30px;
+    color: white;
+    display: flex;
+}
+.weather_temp{
+    display: flex;
+    margin: 0;
+    color: white;
+    font-size: 200px;
+}
+
+.weather_info{
+    padding-top: 50px;
+    display: flex;
+    color: white;
+    font-size: 25px;
+    width: 570px;
+    
+}
+
+
+.wednesday{
+    
+    margin-left: 150px;
+    
+}
+.humit{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.humidity{
+   
+    font-size: 50px;
+}
+.speedd{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.speed{
+    
+    margin-top: 15px;
+    font-size: 50px;
+}
+.map_content{
+    
+    
+    background-color: rgb(66, 56, 56);
+    width: 400px;
+    height: 400px;
+    
+    
+}
+.map{
+    
+ 
+    float: right;
+    padding: 100px;
+    
+    
+}
