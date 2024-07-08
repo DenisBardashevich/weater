@@ -11,7 +11,7 @@ body {
 
 .title {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end
 }
 
 .title_teprec {
@@ -43,6 +43,7 @@ body {
 
 .form {
     display: flex;
+    
 }
 
 .input {
