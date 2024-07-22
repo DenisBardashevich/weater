@@ -8,7 +8,7 @@ const wednesday_temp = document.querySelector("wednesday_temp");
 
 
 async function getWeather(city) {
-    const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
+    const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
     const responce = await fetch(url);
     const data = await responce.json();
     const City_Time = data.location.tz_id;
